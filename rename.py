@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn tới thư mục "Evening1"
-evening_directory = 'Evening1'
+evening_directory = 'Afternoon'
 
 # Kiểm tra xem thư mục tồn tại hay không
 if os.path.exists(evening_directory):
@@ -11,7 +11,7 @@ if os.path.exists(evening_directory):
     files.sort()
 
     # Khởi tạo biến đếm
-    count = 0
+    count = 100
 
     # Lặp qua từng tệp trong danh sách
     for file_name in files:
