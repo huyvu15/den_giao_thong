@@ -1,6 +1,6 @@
 import cv2
 
-cam = cv2.VideoCapture("rtsp://admin:Admin@123@27.72.149.50:1554/profile3/media.smp")
+
 
 # Kích thước hình chữ nhật
 rectangle_width = 60  # Độ rộng
