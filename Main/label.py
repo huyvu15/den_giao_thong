@@ -30,5 +30,7 @@ toi = [
 
 
 sum = sang + toi 
+print(sum)
 
 print(np.array(sum))
+print(len(sum))
