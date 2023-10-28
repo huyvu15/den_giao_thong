@@ -27,8 +27,7 @@ print(np.array(chieu))
 toi = [
     
 ]
-
-
-sum = sang + toi 
-
-print(np.array(sum))
+sang = np.array(sang)
+chieu = np.array(chieu)
+data = np.concatenate((sang, chieu))
+print(data)
