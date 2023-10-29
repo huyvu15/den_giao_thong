@@ -34,6 +34,7 @@ toi = [
     -1, -1, -1, -1, -1, -1, -1, -1, 1, -1,
     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
 ]
+
 sang = np.array(sang)
 chieu = np.array(chieu)
 toi = np.array(toi)
