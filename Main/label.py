@@ -42,3 +42,5 @@ data = np.concatenate((sangchieu,toi))
 
 
 print(data)
+print(len(data))    
+
