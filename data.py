@@ -45,3 +45,5 @@ data = np.concatenate((sangchieu,toi))
 
 
 print(data)
+
+
