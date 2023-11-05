@@ -3,8 +3,8 @@ import os
 import time
 
 # Tạo thư mục label nếu nó chưa tồn tại
-if not os.path.exists("toi"):
-    os.mkdir("toi")
+if not os.path.exists("anh_chieu"):
+    os.mkdir("anh_chieu")
 
 cam = cv2.VideoCapture("rtsp://admin:Admin@123@27.72.149.50:1554/profile3/media.smp")
 
@@ -34,14 +34,14 @@ while True:
     cv2.imshow("Cropped Frame", cropped_frame)
 
     # Lưu ảnh vào thư mục label
-    image_filename = os.path.join("toi", f"image_{count}.jpg")
+    image_filename = os.path.join("anh_chieu", f"image_chieu_{count}.jpg")
     cv2.imwrite(image_filename, cropped_frame)
     count += 1
 
     # Reset thời điểm bắt đầu
     start_time = time.time()
 
-    if count >= 300:
+    if count >= 1000:
         break
 
     if cv2.waitKey(1) == ord("q"):
