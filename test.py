@@ -3,8 +3,8 @@ import os
 import time
 
 # Tạo thư mục label nếu nó chưa tồn tại
-if not os.path.exists("anh_toi2"):
-    os.mkdir("anh_toi2")
+if not os.path.exists("ztoi"):
+    os.mkdir("ztoi")
 
 cam = cv2.VideoCapture("rtsp://admin:Admin@123@27.72.149.50:1554/profile3/media.smp")
 
@@ -34,7 +34,7 @@ while True:
     cv2.imshow("Cropped Frame", cropped_frame)
 
     # Lưu ảnh vào thư mục label
-    image_filename = os.path.join("anh_toi2", f"image_chieu_{count}.jpg")
+    image_filename = os.path.join("ztoi", f"image_1_{count}.jpg")
     cv2.imwrite(image_filename, cropped_frame)
     count += 1
 

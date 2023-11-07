@@ -54,3 +54,4 @@ data = data.astype(int)
 # Save 'data' to a text file as integers
 np.savetxt('label1.txt', data, fmt='%d')
 
+data = anh_sang + sang + chieu + anh_chieu+ anh_toi
