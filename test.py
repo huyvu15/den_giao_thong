@@ -34,7 +34,7 @@ while True:
     cv2.imshow("Cropped Frame", cropped_frame)
 
     # Lưu ảnh vào thư mục label
-    image_filename = os.path.join("ztoi", f"image_1_{count}.jpg")
+    image_filename = os.path.join("ztoi", f"image_3_{count}.jpg")
     cv2.imwrite(image_filename, cropped_frame)
     count += 1
 

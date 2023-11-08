@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn tới thư mục "Evening1"
-evening_directory = r'D:\Lab\anh_toi2\vàng'
+evening_directory = r'D:\Lab\ztoi'
 
 # Kiểm tra xem thư mục tồn tại hay không
 if os.path.exists(evening_directory):
@@ -11,14 +11,14 @@ if os.path.exists(evening_directory):
     files.sort()
 
     # Khởi tạo biến đếm
-    count = 400
+    count = 450
 
     # Lặp qua từng tệp trong danh sách
     for file_name in files:
         # Kiểm tra nếu tệp là tệp thực sự, không phải thư mục
         if os.path.isfile(os.path.join(evening_directory, file_name)):
             # Tạo tên mới cho tệp
-            new_name = f'z{count}.jpg'
+            new_name = f'z1{count}.jpg'
 
             # Kiểm tra xem tên mới đã tồn tại chưa, nếu có thì tăng biến đếm
             while os.path.exists(os.path.join(evening_directory, new_name)):
