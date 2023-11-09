@@ -18,7 +18,7 @@ if os.path.exists(evening_directory):
         # Kiểm tra nếu tệp là tệp thực sự, không phải thư mục
         if os.path.isfile(os.path.join(evening_directory, file_name)):
             # Tạo tên mới cho tệp
-            new_name = f'z1{count}.jpg'
+            new_name = f'z{count}.jpg'
 
             # Kiểm tra xem tên mới đã tồn tại chưa, nếu có thì tăng biến đếm
             while os.path.exists(os.path.join(evening_directory, new_name)):

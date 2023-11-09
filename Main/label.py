@@ -36,7 +36,7 @@ anh_sang = [1] * 106 + [-1] * 119 + [0] * 30 # 1
 
 anh_chieu = [-1]*110 + [1] *110 + [0] * 30 # 3
 
-anh_toi = [-1]*200 + [1] *200 + [0] * 50
+anh_toi = [-1]*200 + [1] *200 + [0] * 102
 
 anh_sang = np.array(anh_sang)
 anh_chieu = np.array(anh_chieu)
