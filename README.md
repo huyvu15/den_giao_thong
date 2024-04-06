@@ -8,7 +8,7 @@ thống này, chúng ta sử dụng sự sáng tạo bằng cách áp dụng cá
 Decision Tree, SVM, AdaBoost và Gradient Boost để phân loại màu sắc của các đèn
 báo.
 
-![anh sang](anh_chieu.png)
+![anh sang](cam_chieu.png)
 
 
 Bằng việc tận dụng xử lý ảnh để trích xuất thông tin từ hình ảnh của đèn báo giao
