@@ -1,6 +1,6 @@
 # Sử dụng Machine Learning trong việc phân biệt màu sắc của đèn báo giao thông
 
-[anh sang](anh_sang.png)
+![anh sang](anh_sang.png)
 
 Trong cuộc sống hàng ngày, đèn báo giao thông đóng vai trò quan trọng trong việc
 duy trì an toàn và thông suốt của giao thông đường bộ. Trong nỗ lực tối ưu hóa hệ
